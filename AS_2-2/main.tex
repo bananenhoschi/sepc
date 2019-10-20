@@ -1,0 +1,75 @@
+\documentclass[a4paper,12pt]{report}
+\usepackage[utf8]{inputenc}
+\usepackage{geometry}
+ \geometry{
+  top=2cm,
+	bottom=2cm,
+	left=2.5cm,
+	right=2cm,	
+	 headheight=17pt, % as per the warning by fancyhdr
+	includehead,includefoot,
+	heightrounded, %
+}
+
+%misselanious
+\usepackage[parfill]{parskip}
+\usepackage{url}
+
+%language
+\usepackage[english,german]{babel}
+% last listed language is selected by default
+%use \selectlanguage{<language>} to switch language within the document
+
+%pictures
+\usepackage{graphicx}
+\graphicspath{ {pics/} }
+
+%header & footer
+\usepackage{lastpage}
+\usepackage{fancyhdr}
+
+
+\pagestyle{fancy}
+	\fancyhf{}
+	\lhead{\slshape \leftmark}
+	\rhead{Softwareentwicklungsprozesse}
+	\renewcommand{\chaptermark}[1]{ \markboth{#1}{} }
+	\rfoot{\thepage{ }/ \pageref{LastPage}}
+%\pagestyle{fancy}
+
+
+
+%title formating of report class
+\usepackage{titlesec}
+\titleformat{\chapter}{\normalfont\huge}{\thechapter.}{20pt}{\huge}
+
+%bibliography
+\usepackage{cite}
+
+
+
+\begin{document}	
+
+\input{chapters/titlepage}
+
+\pagenumbering{arabic}
+
+
+\tableofcontents
+\thispagestyle{fancy}
+
+\input{chapters/introduction}
+
+
+\input{chapters/comparsion}
+
+
+\listoffigures
+\thispagestyle{fancy}
+
+
+\bibliography{main}{}
+\bibliographystyle{unsrt}
+\thispagestyle{fancy}
+
+\end{document}
