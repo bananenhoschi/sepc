@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2019.3.19)  29 OCT 2019 12:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2019.3.19)  29 OCT 2019 14:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -93,6 +93,14 @@ Package: etoolbox 2018/08/19 v2.5f e-TeX tools for LaTeX (JAW)
 \Urlmuskip=\muskip10
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
+(c:/texlive/2018/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count93
+\float@exts=\toks18
+\float@box=\box27
+\@float@everytoks=\toks19
+\@floatcapt=\box28
+)
 (c:/texlive/2018/texmf-dist/tex/generic/babel/babel.sty
 Package: babel 2018/11/13 3.27 The Babel package
 
@@ -104,11 +112,11 @@ Language: english 2017/06/06 v3.3r English support from the babel system
 
 (c:/texlive/2018/texmf-dist/tex/generic/babel/babel.def
 File: babel.def 2018/11/13 3.27 Babel common definitions
-\babel@savecnt=\count93
+\babel@savecnt=\count94
 \U@D=\dimen111
 
 (c:/texlive/2018/texmf-dist/tex/generic/babel/txtbabel.def)
-\bbl@dirlevel=\count94
+\bbl@dirlevel=\count95
 )
 \l@canadian = a dialect from \language\l@american 
 \l@australian = a dialect from \language\l@british 
@@ -161,12 +169,12 @@ s
 )
 (c:/texlive/2018/texmf-dist/tex/latex/titlesec/titlesec.sty
 Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
-\ttl@box=\box27
+\ttl@box=\box29
 \beforetitleunit=\skip52
 \aftertitleunit=\skip53
 \ttl@plus=\dimen114
 \ttl@minus=\dimen115
-\ttl@toksa=\toks18
+\ttl@toksa=\toks20
 \titlewidth=\dimen116
 \titlewidthlast=\dimen117
 \titlewidthfirst=\dimen118
@@ -175,21 +183,25 @@ Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
 LaTeX Info: Redefining \cite on input line 302.
 LaTeX Info: Redefining \nocite on input line 332.
 Package: cite 2015/02/27  v 5.5
-) (./main.aux)
+) (./main.aux
+
+LaTeX Warning: Label `fig:lifecycle' multiply defined.
+
+)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -227,17 +239,17 @@ LaTeX Font Info:    ... okay on input line 51.
 
 (c:/texlive/2018/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count95
+\scratchcounter=\count96
 \scratchdimen=\dimen119
-\scratchbox=\box28
-\nofMPsegments=\count96
-\nofMParguments=\count97
-\everyMPshowfont=\toks19
-\MPscratchCnt=\count98
+\scratchbox=\box30
+\nofMPsegments=\count97
+\nofMParguments=\count98
+\everyMPshowfont=\toks21
+\MPscratchCnt=\count99
 \MPscratchDim=\dimen120
-\MPnumerator=\count99
-\makeMPintoPDFobject=\count100
-\everyMPtoPDFconversion=\toks20
+\MPnumerator=\count100
+\makeMPintoPDFobject=\count101
+\everyMPtoPDFconversion=\toks22
 ) (c:/texlive/2018/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
@@ -268,7 +280,7 @@ e
 ))
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
-(lastpage)             ! on input line 51.
+(lastpage)             ! on input line 53.
 
 (./chapters/titlepage.tex
 <pics/FHNW-LOGO.png, id=1, 584.1825pt x 212.795pt>
@@ -302,56 +314,77 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 ]
 Kapitel 1.
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--10
+
+ []
+
+<pics/hybrid1.png, id=22, 534.99875pt x 244.915pt>
+File: pics/hybrid1.png Graphic file (type png)
+<use pics/hybrid1.png>
+Package pdftex.def Info: pics/hybrid1.png  used on input line 13.
+(pdftex.def)             Requested size: 427.99957pt x 195.93225pt.
+<pics/lifecycle.png, id=23, 72.27pt x 31.5579pt>
+File: pics/lifecycle.png Graphic file (type png)
+<use pics/lifecycle.png>
+Package pdftex.def Info: pics/lifecycle.png  used on input line 21.
+(pdftex.def)             Requested size: 469.47049pt x 205.05789pt.
 [3
 
-]
-<pics/dad-topic.png, id=25, 239.39438pt x 191.71625pt>
-File: pics/dad-topic.png Graphic file (type png)
-<use pics/dad-topic.png>
-Package pdftex.def Info: pics/dad-topic.png  used on input line 26.
-(pdftex.def)             Requested size: 239.39378pt x 191.71577pt.
-) (./chapters/comparsion.tex [4 <./pics/dad-topic.png>]
-Kapitel 2.
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 22.
-(c:/texlive/2018/texmf-dist/tex/latex/base/omscmr.fd
+ <./pics/hybrid1.png>]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 27.
+ (c:/texlive/2018/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 22.
- [5
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 27.
 
-] [6]) [7] (./main.lof)
+[4 <./pics/lifecycle.png>]
+<pics/Lifecycle-DAD-Agile.jpg, id=33, 1027.84pt x 372.39125pt>
+File: pics/Lifecycle-DAD-Agile.jpg Graphic file (type jpg)
+<use pics/Lifecycle-DAD-Agile.jpg>
+Package pdftex.def Info: pics/Lifecycle-DAD-Agile.jpg  used on input line 61.
+(pdftex.def)             Requested size: 469.47049pt x 170.09174pt.
+) (./chapters/comparsion.tex [5 <./pics/Lifecycle-DAD-Agile.jpg>]
+Kapitel 2.
+[6
+
+] [7]) [8] (./main.lof)
 \tf@lof=\write4
 \openout4 = `main.lof'.
 
-(./main.bbl [8
+ (./main.bbl [9
 
 ]) 
 AED: lastpage setting LastPage
-[9
+[10
 
-] (./main.aux) ) 
+] (./main.aux)
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
 Here is how much of TeX's memory you used:
- 3579 strings out of 492616
- 49219 string characters out of 6132768
- 136713 words of memory out of 5000000
- 7405 multiletter control sequences out of 15000+600000
+ 3651 strings out of 492616
+ 50255 string characters out of 6132768
+ 138131 words of memory out of 5000000
+ 7469 multiletter control sequences out of 15000+600000
  10369 words of font info for 36 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 37i,11n,43p,1194b,286s stack positions out of 5000i,500n,10000p,200000b,80000s
-<c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx
-12.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb>
-<c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><c:/texl
-ive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2018/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><c:/texlive/2018/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmsl12.pfb><c:/texlive/2018/texmf-dist/fonts/typ
-e1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmti12.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmtt12.pfb>
-Output written on main.pdf (10 pages, 168403 bytes).
+ 37i,11n,43p,1194b,301s stack positions out of 5000i,500n,10000p,200000b,80000s
+<c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/tex
+live/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><c:/texlive/20
+18/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><c:/texlive/2018/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2018/texmf-dist/font
+s/type1/public/amsfonts/cm/cmr17.pfb><c:/texlive/2018/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmsl12.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmsy10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/c
+msy6.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+<c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on main.pdf (11 pages, 257021 bytes).
 PDF statistics:
- 77 PDF objects out of 1000 (max. 8388607)
- 52 compressed objects within 1 object stream
+ 87 PDF objects out of 1000 (max. 8388607)
+ 57 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 11 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 21 words of extra memory for PDF output out of 10000 (max. 10000000)
 
