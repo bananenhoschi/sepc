@@ -1,0 +1,29 @@
+\begin{thebibliography}{1}
+
+\bibitem{planningReleaseScrum}
+Author nicht erwähnt.
+\newblock Scrum release planning.
+\newblock \url{https://www.scrum-institute.org/Release_Planning.php}.
+
+\bibitem{planningReleaseDad}
+Scott Ambler.
+\newblock Rolling wave release planning for agile delivery teams.
+\newblock
+  \url{http://disciplinedagiledelivery.com/rolling-wave-release-planning}.
+
+\bibitem{planningPrioScrum}
+Author nicht erwähnt.
+\newblock Ordered not prioritized.
+\newblock \url{https://www.scrum.org/resources/ordered-not-prioritized}.
+
+\bibitem{planningPrioDad}
+Scott Ambler.
+\newblock Agile core practice: Prioritized requirements.
+\newblock \url{http://agilemodeling.com/essays/prioritizedRequirements.htm}.
+
+\bibitem{planningScopeDad}
+Scott Ambler.
+\newblock Dad lifecycle - agile (scrum based).
+\newblock \url{http://disciplinedagiledelivery.com/lifecycle/agile-lifecycle/}.
+
+\end{thebibliography}
