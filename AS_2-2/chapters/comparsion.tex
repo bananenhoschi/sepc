@@ -26,8 +26,9 @@ Um eine Release-Planung durchführen zu können muss folgendes bekannt sein:
 Ein Release-Plan kann Termin- oder Feature-geführt sein.\smallskip
 
 Bei Termin-geführten Projekten wird spezifiziert, welche Features bis zu einem bestimmten Termin erfüllt werden können.\smallskip
+Kommt es bei einem Termin-geführten Projekt zu Verzögerungen, so muss gegebenenfalls der Termin angepasst werden. Dies muss in Abstimmung mit dem Kunden gemacht werden.
 
-Bei Feature-geführten Projekten wird spezifiziert , bis zu welchem Termin das Features erfüllt ist.\smallskip
+Bei Feature-geführten Projekten wird spezifiziert , bis zu welchem Termin das Features erfüllt ist. Kommt es bei Feature-geführten Projekten zu Verzögerungen, so muss zusammen mit dem Kunden besprochen werden, welche Features gegebenenfalls weggelassen werden können entsprechend angepasst werden müssen.\smallskip
 
 Wie der Backlog ist auch der Release-Plan bei Scrum nicht statisch. Dieser kann sich mit dem Backlog ändern oder auch nach jedem Sprint wieder diskutiert und überarbeitet werden.
 \bigskip 
@@ -87,8 +88,8 @@ Initial ist der Planungsaufwand bei DAD hoch. Man muss nebst der eigentlichen Pl
 {\Large Scrum:} \medskip
 
 Bei Scrum wird das Risikomanagement hauptsächlich durch die Kommunikation zwischen dem Kunden und Team geführt. Diese geht über den Product Owner. Dabei muss der Kunde durch seinen stetigen Einfluss mögliche Risiken ausschliessen können. Er kann dies mittels Akzeptanzkriterien beeinflussen.\newline
-Aus teaminterner Sicht ist die Definition of Done das Kontrollinstrument, um Qualität aber auch Vollständigkeit sicherzustellen.
-Als weiteres Instrument dienen die Reviews am Ende jedes Sprints. An jenen werden dem Kunden die umgesetzten Items präsentiert und der Kunde oder der Product Owner kann Einfluss nehmen bzw. Missverständnisse aufdecken und klären.
+Aus Team-interner Sicht ist die Definition of Done das Kontrollinstrument um Qualität aber auch Vollständigkeit sicherzustellen.
+Als weiteres Instrument dient die Review am Ende jedes Sprints. An jener wird dem Kunde die umgesetzten Items präsentiert. Hier kann der Kunde oder der Product Owner Einfluss bzw. Missverständnisse aufdecken und klären.
 
 \bigskip 
 
@@ -99,13 +100,6 @@ Um das Risiko von Fehlkommunikation zu verringern werden bei DAD gegenüber Scru
 Weiter sieht DAD die Planung von festen Releases vor. Damit soll regelmässig Software zur Verfügung gestellt werden um ein Feedback des Kunden zu erhalten und frühzeitig festzustellen, ob man die Anforderungen so erfüllen kann. Dies ist gleich wie bei Scrum.
 
 \section{Zusammenarbeit}
-
-Das Thema Zuständigkeit wird unter folgenden fünf Aspekten betrachtet:
-\begin{enumerate}
-	\item 	Koordination im Team 
-	\item 	Rolle und Aufgaben des Kunden \smallskip
-	Da in linearen Vorgehensmodellen der Kunde nur an bestimmten Meilensteinen beteiligt ist, interessiert es zu betrachten welche Aufgaben der Kunde hier hat.
-\end{enumerate}
 
 
 \subsection{Koordination im Team}
@@ -166,7 +160,123 @@ Man will also bewusst ein Produkt, dass alle Stakeholder gleich berücksichtigen
 Als wichtig wird auch herausgehoben, dass das Projekt im "wir"-Kontext betrachtet wird und nicht im "ihr". Es gibt nicht den Kunden und das Entwicklungsteam, sondern das Projekt betrifft alle gleich.
 
 
+\section{Zuständigkeit}
+\subsection{Rollen}
+{\Large Scrum:} \medskip
+
+In Scrum gibt es drei Rollen. Den Scrum Master, den Product Owner und die Team Member. 
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.8]{scrum_roles}
+	\caption{Scrum Rollen}
+	\label{fig:scrumrollen}
+\end{figure}
+
+Der \textbf{Product Owner} ist die Ansprechperson für Kunden und Stakeholder. Er nimmt die Anforderungen entgegen, priorisiert diese und gibt diese an das Team weiter. Der Product Owner kann aber auch direkt der Kunde sein. In beiden Fällen vertritt er aber die fachliche Sicht, beurteilt die Qualität, Usability und Performance. \medskip
+
+Der \textbf{Scrum Master} dient dem Scrum Team um die gewünschte Performance zu erreichen. Er ist verantwortlich, dass der Prozess zielgerichtet ausgeführt werden kann. Er nimmt sich Problemen, sogenannte Impediments, an und löst diese - mit oder ohne Team. Der Scrum Master fördert den Fortschritt des Teams und lenkt dieses falls der Fortschritt nicht wie geplant voran kommt. Zudem organisiert die Scrum Zeremonien - Retrospektive, Review-Meeting, Daily Standups - und sorgt für den Informationsfluss zwischen Team und Product Owner. Er ist sozusagen die gute Seele des Teams. \medskip
+
+Das \textbf{Scrum Team}, oder kurz Team, ist das zentrale Element im Scrum Prozess. Es setzt die Anforderungen um. In Scurm besteht ein Team aus fünf bis zehn Personen. Grössere Teams sollten in mehrere unabhängige Teams aufgetrennt werden. Sehr wichtig bei Scrum ist, dass das Team selbstorganisiert. Es bestimmt schlussendlich selbst, welche Anforderungen es im Sprint umsetzten will. Dabei beachtet es, dass es am Ende jedes Sprints ein «Increment of  Potentially Shippable Functionality» liefert. In einem Scrum Team sind immer die Disziplinen vorhanden, welche es für das Erreichen des Ziels benötigt.
+\bigskip 
+
+{\Large DAD:} \medskip
+
+Im Gegensatz zu Scrum werden in DAD zusätzliche Rollen definiert. In DAD werden einzelne Zuständigkeiten explizit aufgeführt, welche in Scrum im Team vereint werden. DAD verwendet gewisse Rollen aus dem Agilen Manifest (Team Member und Product Owner). DAD unterscheidet hierbei primäre und unterstützende Rollen. Zu den primären Rollen zählen Team Lead, Product Owner, Team Member, Architecture Owner und Stakeholder. Zu den unterstützenden Rollen zählen Spezialisten, Independent Tester, Domänen-Experten, Technische Experten und Integratoren.
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.8]{DAD-Roles}
+	\caption{DAD Rollen}
+	\label{fig:dadrollen}
+\end{figure}
+
+DAD wurde somit stark auf die Bedürfnisse von Unternehmen weiterentwickelt um Bedürfnisse aus den bestehenden Firmenstrukturen mit Prozessen, Programmen und Rollen anzuwenden. DAD unterstützt mit den sehr spezifischen Rollen hierarchischer Unternehmensstrukturen.
+\bigskip 
+
+
+In diesem Punkt unterscheiden sich die zwei Methoden wesentlich. Warum hat Scrum drei Rollen, DAD hingegen zehn? Scrum konzentriert sich hauptsächlich auf Führungs- und Change-Management-Aspekte während der Konstruktion und hat daher Rollen, die dies widerspiegeln. DAD hingegen konzentriert sich explizit auf den gesamten Delivery Lifecycle und alle Aspekte der Lösungsbereitstellung, einschließlich der technischen Aspekte, die Scrum auslässt. Mit einem größeren Umfang kommen also mehr Rollen hinzu. Weil DAD beispielsweise Fragen der agilen Architektur umfasst, beinhaltet es auch eine Rolle des Architecture Owners. Scrum adressiert keine Architektur und beinhaltet auch keine solche Rolle.
+
+\subsection{Verantwortlichkeiten}
+
+In diesem Aspekt wird beschrieben wie die Verantwortlichkeiten auf die Rollen verteilt sind und welche Verantwortlichkeiten im Prozess wahrgenommen werden müssen.
+
+{\Large Scrum:} \medskip
+
+In Scrum hat jede Rolle ihre Verantwortlichkeit im Prozess. Der Scrum Master hat in erster Linie die Verantwortung zur Einhaltung des Prozesses und der Scrum Spielregeln. Wie bereits im Kapitel Rollen beschrieben hat er die Verantwortung zur Beseitigung von Hindernissen.
+
+Der Product Owner hat die Verantwortung die Vision und Wünsche des Kunden an das Team weiterzugeben. Er ist die Stimme der Stakeholder und somit verantwortlich dies Bedürfnisse des Kunden zu identifizieren.
+
+Die grösste Verantwortung wird jedoch dem Team zugeteilt. Es legt den Umfang fest, welches es umsetzt - das sogenannte Sprint Goal. Es verpflichtet sich dazu das Sprint Goal umzusetzen. Bei Problemen oder Störungen muss das Team zeitnah mit dem Kunden bzw. mit dem Product Owner in Kontakt treten um gegebenenfalls das Sprint Goal anzupassen. Da das Team selbstorganisiert ist, liegt es in seiner Verantwortung wie das Ziel erreicht wird.
+
+\smallskip
+{\Large DAD:} \medskip
+
+Da es in DAD mehr Rollen als in Scrum gibt, sind auch die Verantwortlichkeiten expliziter.
+Wir gehen hier nur auf die Verantwortlichkeiten der primären Rollen ein.
+
+Der Team Lead hat in DAD die ähnliche Funktion und Verantwortlichkeiten wie der Scrum Master. Er dient dem Team als Coach. Er schaut, dass das Team performant arbeiten kann und fördert das Team in der Verbesserung ihrer Arbeitsweise.
+
+Der Product Owner in DAD unterscheidet sich kaum vom PO in Scrum. Auch in DAD ist er die Stimme des Kunden. Er priorisiert die Aufgaben. Er versucht die Fragen des Teams zu beantworten oder leitet diese an den Kunden weiter.
+
+Der Architecture Owner ist verantwortlich für die Umsetzung der architektonischen Entscheide. Er trifft die Architektur Entscheide. Er erstellt das Design der Gesamtlösung und entwickelt dieses weiter. Oft ist der Architecture Owner auch der Lead Entwickler. Manchmal wird er auch Softwarearchitekt oder Solutionarchitekt genannt. Der AO ist keine hierarchische Rolle. Er arbeitet mit dem Team und trifft die Entscheidungen in Absprache mit diesem.
+
+Wie in Scrum hat auch das Team in DAD die grösste Verantwortung. Darunter zählen:
+
+\begin{itemize}
+	\item Eine Lösung zu finden, die den Bedürfnissen der Stakeholder entspricht.
+	\item Optimierte Nutzung der Ressourcen
+	\item Bereitschaft zu einer umfassenden Zusammenarbeit innerhalb Ihres Teams, auch ausserhalb Ihres Fachgebiets.
+	\item Informationsaustausch über alle Arbeiten die im Gange sind.
+	\item Andere in Ihren Fähigkeiten und Erfahrungen zu coachen.
+	\item Erweiterung Ihrer Kenntnisse und Fähigkeiten ausserhalb Ihres Fachgebiets.
+	\item Teilnahme an den Meetings.
+	\item Proaktiv nach Wegen zur Verbesserung der Teamleistung suchen
+	\item Vermeiden, dass Arbeiten außerhalb der aktuellen Iteration ohne Zustimmung des Teams angenommen werden.
+	\item Arbeit so früh wie möglich validieren und mit anderen zusammenzuarbeiten
+\end{itemize}
+
+Diese Punkte sind ziemlich Deckungsgleich wie jene die im agilen Manifest geschildert werden. 
+
+\subsection{Zielerfüllung}
+
+\medskip
+{\Large Scrum:} \medskip
+
+Jedes Artefakt, welches in einer Iteration, in Scrum Sprint genannt, umgesetzt wird, wird durch Akzeptanzkriterien beschrieben. Diese werden zusammen mit oder durch den Kunden definiert. Anhand dieser Akzeptanzkriterien wird ein Artefakt gemessen. Die Akzeptanzkriterien dienen dem Team, nebst einer genauen Beschreibung des Artefakts, zur Erreichung des Sprint Ziels.
+
+In Scrum wird nach jedem Sprint die sogenannte Review gemacht. Hier wird dem Kunden das Produkt bzw. die umgesetzten Artefakte präsentiert. Hier hat der Kunde die Möglichkeit lenkend einzugreifen. Da in Scrum in kurzen Iterationen gearbeitet wird, kann der Kunde schnell und zeitnah Einfluss auf Missverständnisse nehmen.
+
+Das Team definiert zudem die Definition of Done. Die DoD definiert, wann ein Task abgeschlossen ist. Diese müssen nicht zwingend deckend zu den Akzeptanzkriterien sein. Oft hat die DoD umfassendere Punkte wie bspw. Tests, Dokumentation, Review etc.
+
+\medskip
+{\Large DAD:} \medskip
+
+Grundsätzlich hat DAD dieselben Mechanismen zur Sicherstellung der Zielerreichung wie Scrum. Nach jeder Iteration wird, wie in Scurm auch, die Iteration zusammengefasst. Den Stakeholdern wird eine Demo der umgesetzten Tasks gezeigt. Es wird entschieden ob man mit dem Vorgehen weitermacht und verbessert den Way of Work.
+
+In DAD wird zudem eine gemeinsame Vision mit den Stakeholdern erstellt. Dies ist ein weiteres Mittel zu Sicherstellung der Zielerreichung.
+
+In DAD besteht jede Phase, Inception, Construction, Transition, aus mehreren Goals. Ein Goal kann einmal oder mehrmals durchlaufen werden. Ein Goal besteht aus einem oder mehreren Decision Points.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=\textwidth]{Lifecycle-Goals.jpg}
+	\caption{Lifecycle Goals}
+	\label{fig:goals}
+\end{figure}
+
+Die Decision Points und Goals dienen der Sicherstellung des Prozesses und somit auch der Erreichung der Ziele.
+
+\subsection{Rollenkonflikte}
+
+In Scrum wie auch in DAD sind die Teams selbstorganisiert, was impliziert, dass Hierarchien in Frage gestellt werden. Gerade in Scrum werden explizite Disziplinen nicht gesucht. Scrum fordert, dass alle Mitglieder eines Teams möglichst jede Aufgabe im Sprint abarbeiten können. Ein exklusiver Tester, Programmierer oder Architekt passt somit nicht optimal in ein Scrum Team. Ein gutes Team kann dies aber berücksichtigen und die Nachteile kompensieren. Dies sollte aber wenn möglich in erfahrenen Teams gemacht werden.
+
+DAD bietet hier Unterstützung indem zusätzliche Rollen explizit adressiert werden. So ist nicht nur der Architecture Owner explizit aufgeführt, sondern weisst DAD auch unterstützenden, sogenannte Supporting Roles, auf. Diese können je nach Bedürfnis des Teams und des Projekt gedeckt werden. So kann bei Bedarf ein Tester hinzugezogen werden oder ein Domänen Experte. DAD versucht hier die Rollenkonflikte zu mindern. Jedoch ist darauf hinzuweisen, dass auch DAD Hierarchien in Frage stellt und somit selbstorganisierte Teams fördert.
+
+
+
 \section{Empfehlung}
+
+
+IN PROGRESS
 
 Grundsätzlich wäre der Ansatz mit DAD sicher spannend. Ihr Team kann nach wie vor mit Scrum arbeiten und Sie haben die Möglichkeit mit den erwähnten Instrumenten wie leichte Meilensteine, Release Planung der agilen Entwicklung Einfluss zu nehmen und dem ganzen einen ein Rahmen zu geben. \newline
 Jedoch wird Sie das Einführen dieses Vorgehensmodell hohen Aufwand kosten. Vor allem muss für das saubere Anwenden von DAD viel Analyse von bestehenden Prozessen und Zuständen innerhalb Ihres Unternehmens betrieben werden.
