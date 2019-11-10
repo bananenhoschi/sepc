@@ -2,7 +2,7 @@
 \contentsline {chapter}{\numberline {1}Einf\IeC {\"u}hrung}{3}% 
 \contentsline {section}{\numberline {1.1}Was ist Diciplined Agile Delivery?}{3}% 
 \contentsline {subsection}{\numberline {1.1.1}Phasen in DAD}{4}% 
-\contentsline {subsection}{\numberline {1.1.2}DAD als agiles Vorgehensmodell - Scrum basierten Vorgehensmodell}{5}% 
+\contentsline {subsection}{\numberline {1.1.2}DAD als Scrum-basiertes Vorgehensmodell}{5}% 
 \contentsline {chapter}{\numberline {2}Gegen\IeC {\"u}berstellung}{6}% 
 \contentsline {section}{\numberline {2.1}Planung}{6}% 
 \contentsline {subsection}{\numberline {2.1.1}Release-Planung}{6}% 
@@ -10,4 +10,11 @@
 \contentsline {subsection}{\numberline {2.1.3}Planungsumfang}{7}% 
 \contentsline {subsection}{\numberline {2.1.4}Planungsaufwand}{8}% 
 \contentsline {subsection}{\numberline {2.1.5}Risikomanagement}{8}% 
-\contentsline {subsection}{\numberline {2.1.6}Empfehlung}{8}% 
+\contentsline {section}{\numberline {2.2}Zust\IeC {\"a}ndigket und Zusammenarbeit}{9}% 
+\contentsline {subsection}{\numberline {2.2.1}Rollen}{9}% 
+\contentsline {section}{\numberline {2.3}Empfehlung}{9}% 
+\contentsline {chapter}{\numberline {3}Gegen\IeC {\"u}berstellung Zusammenarbeit}{10}% 
+\contentsline {section}{\numberline {3.1}Zusammenarbeit}{10}% 
+\contentsline {subsection}{\numberline {3.1.1}Koordination im Team}{10}% 
+\contentsline {subsection}{\numberline {3.1.2}Rolle und Aufgaben des Kunden}{11}% 
+\contentsline {section}{\numberline {3.2}Empfehlung}{12}% 

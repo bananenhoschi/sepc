@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2019.3.19)  29 OCT 2019 14:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2019.3.19)  10 NOV 2019 13:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -349,15 +349,31 @@ Package pdftex.def Info: pics/Lifecycle-DAD-Agile.jpg  used on input line 61.
 Kapitel 2.
 [6
 
-] [7]) [8] (./main.lof)
+] [7] [8]) (./chapters/comparsion-competence.tex [9]
+Kapitel 3.
+
+Overfull \hbox (0.68158pt too wide) in paragraph at lines 17--20
+[]\OT1/cmr/m/n/12 Scrum geht grunds[]atzlich von ei-ner selbst-or-ga-ni-sie-ren
+-den Ko-or-di-na-ti-on aus. Ein-zig der Scrum
+ []
+
+[10
+
+] [11]
+Overfull \hbox (24.40773pt too wide) in paragraph at lines 62--63
+[]\OT1/cmr/m/n/12 Interne: Per-so-nen in-ner-halb des Ent-wick-lungs-teams und 
+wel-che tech-ni-sche oder gesch[]aftliche
+ []
+
+) [12] (./main.lof)
 \tf@lof=\write4
 \openout4 = `main.lof'.
 
- (./main.bbl [9
+ (./main.bbl [13
 
 ]) 
 AED: lastpage setting LastPage
-[10
+[14
 
 ] (./main.aux)
 
@@ -365,13 +381,13 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 3651 strings out of 492616
- 50255 string characters out of 6132768
- 138131 words of memory out of 5000000
- 7469 multiletter control sequences out of 15000+600000
+ 3664 strings out of 492616
+ 50478 string characters out of 6132768
+ 139131 words of memory out of 5000000
+ 7479 multiletter control sequences out of 15000+600000
  10369 words of font info for 36 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 37i,11n,43p,1194b,301s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 37i,11n,43p,1194b,313s stack positions out of 5000i,500n,10000p,200000b,80000s
 <c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/tex
 live/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><c:/texlive/20
 18/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><c:/texlive/2018/texmf
@@ -381,10 +397,10 @@ blic/amsfonts/cm/cmsl12.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsf
 onts/cm/cmsy10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/c
 msy6.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
 <c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on main.pdf (11 pages, 257021 bytes).
+Output written on main.pdf (15 pages, 266297 bytes).
 PDF statistics:
- 87 PDF objects out of 1000 (max. 8388607)
- 57 compressed objects within 1 object stream
+ 100 PDF objects out of 1000 (max. 8388607)
+ 66 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  21 words of extra memory for PDF output out of 10000 (max. 10000000)
 
