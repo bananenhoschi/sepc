@@ -1,0 +1,9 @@
+# TexStudio build files #
+###################
+*.aux
+*.blg
+*.log
+*.gz
+*.pdf
+*.toc
+*.lof
