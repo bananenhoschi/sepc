@@ -1,6 +1,11 @@
 # Software Entwicklungsprozesse (sepc)
 ## Team: Terrible Force
 
+* Frommenwiler Dominic
+* Frei Dominik
+* Inniger Marco
+* Eggenschwiler Carlo
+
 ### Aufgabe 1
 #### Prozesse und Vorgehensmodelle
 
