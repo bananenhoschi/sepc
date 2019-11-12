@@ -53,7 +53,7 @@ Damit soll sichergestellt werden, dass grundlegende Managementfragen gegenüber 
 
 Das Scrum-Team priorisiert zusammen mit dem Product-Owner die Tasks/Stories aus dem Scrum-Backlog. Wichtig dabei ist, dass nicht nur priorisiert, sondern dass auch sortiert werden muss. Beim Sortieren wird auch die Reihenfolge von Abläufen berücksichtigt. Die Priorisierung geht mit der Sortierung Hand in Hand. \smallskip
 
-Weiter achtet Scrum auch darauf, dass die wertvollsten Inkremente frühstmöglich umgesetzt werden.\bigskip 
+Weiter achtet Scrum auch darauf, dass die wertvollsten Inkremente frühstmöglich umgesetzt werden. Eine Bewertung oder Posteriorisierung von Tasks kann über diverse Verfahren ermittelt werden (z.B. Kano, MoSCoW, usw.). Grundsätzlich werden immer der Nutzen und Aufwand berücksichtigt um eine Einschätzung dazu zumachen. \bigskip 
 
 {\Large DAD:} \cite{planningPrioDad} \medskip
 
@@ -64,7 +64,9 @@ Die Priorisierung bei DAD verhält sich ähnlich wie die Release-Planung. Grunds
 
 {\Large Scrum:} \medskip
 
-In Scrum betrifft der Umfang immer direkt das Produkt. Der Scope beinhaltet Features ausgedrückt z.B. als User Stories. Diese sind im Scrum-Backlog abgelegt und verwaltet.
+In Scrum betrifft der Umfang immer direkt das Produkt. Der Scope beinhaltet Features ausgedrückt z.B. als User Stories. Diese sind im Scrum-Backlog abgelegt und verwaltet.\medskip
+
+Man kann in Scrum nicht-funktionale Punkte wie Ferien oder Schulungen auch berücksichtigen. Z.Bsp. muss die Kapazität für einen Sprint angepasst werden wenn ein Teammitglied währenddessen im Urlaub ist. Oder Eine Schulung des Betreiber-Teams kann als User-Story erfasst werden. Jedoch sind solche Anforderungen nicht implizit in Scurm angedacht.	
 \bigskip 
 
 {\Large DAD:} \cite{planningScopeDad} \medskip
@@ -80,7 +82,10 @@ Der Planungsaufwand von Scrum ist relativ gering und ist eigentlich im iterieren
 
 {\Large DAD:} \medskip
 
-Initial ist der Planungsaufwand bei DAD hoch. Man muss nebst der eigentlichen Planung des Produkts auch diverse Analysen von Ist-Zuständen bezüglich Ressourcen und Zuständen innerhalb des Unternehmens machen um die Rahmenbedingungen für das Projekt zu legen. Während der Construction Phase ist der Planungsaufwand analog demjenigen von Scrum.
+Initial ist der Planungsaufwand bei DAD höher als in Scrum. Man muss nebst der eigentlichen Planung des Produkts auch diverse Analysen von Ist-Zuständen bezüglich Ressourcen und Zuständen innerhalb des Unternehmens machen um die Rahmenbedingungen für das Projekt zu legen.
+Dies bringt der Vorteil, dass in einem vielleicht eher unerfahrenen Scrum Team, auch nicht-funktionale Anforderungen berücksichtigt werden. Auch hat so Scrum in einem klassischen Unternehmen mehr Akzeptanz, da es andere Abteilungen und Prozesse berücksichtigt und mit einbezieht. \medskip
+
+Während der Construction Phase ist der Planungsaufwand analog demjenigen von Scrum.
 
 
 \subsection{Risikomanagement}
@@ -102,15 +107,27 @@ Weiter sieht DAD die Planung von festen Releases vor. Damit soll regelmässig So
 \section{Zusammenarbeit}
 
 
+Das Thema Planung wird unter folgenden fünf Aspekten betrachtet:
+\begin{enumerate}
+	\item Koordination im Team
+	\item Rolle und Aufgaben des Kunden
+	\item Kommunikation im Team
+	\item Know-How-Transfer im Team
+	\item Organisation in grösseren Teams
+\end{enumerate}
+
 \subsection{Koordination im Team}
 
-{\Large Scrum:} \cite{planningReleaseScrum} \medskip
+Die Koordination im Team wurde als Aspekt gewählt, weil es interessiert wie sich ein Team organisiert und welche Methoden/Prozesse vom Vorgehensmodell mitgegeben werden um dies zu fördern. \medskip
+
+{\Large Scrum:} \medskip
 
 Scrum geht grundsätzlich von einer selbstorganisierenden Koordination aus. Einzig der Scrum Master hat eine "koordinierende" Rolle, jedoch nur im Bezug auf den Prozess und Schnittstellen ausserhalb des Projekts.
-Als wichtigstes Instrument für Koordination in Scrum oder auch allgemein in agilen Vorgehensmodellen ist die Kommunikation mit den anderen Team-Mitgliedern. Dies wird in Scrum mit regelmässigen Treffen/Aussprachen realisiert. Wie zum Beispiel das Daily Stand-up oder Scrum of Scrums (Team übergreifend), welche speziell für die Koordination angedacht sind. Weitere Routinen wie Daily Scrum oder Reflektion dienen auch der Koordination und deren Verbesserung, auch wenn das nicht primär ihr Ziel ist.
+Als wichtigstes Instrument für Koordination in Scrum oder auch allgemein in agilen Vorgehensmodellen ist die Kommunikation mit den anderen Team-Mitgliedern. Dies wird in Scrum mit regelmässigen Treffen/Aussprachen realisiert. Wie zum Beispiel das Daily Stand-up oder Scrum of Scrums (Team übergreifend), welche speziell für die Koordination angedacht sind. Weitere Routinen wie Daily Scrum oder Reflektion dienen auch der Koordination und deren Verbesserung, auch wenn das nicht primär ihr Ziel ist.\smallskip
+Somit liegt die Verantwortung für die Koordination seiner Aufgaben bei jedem einzelnen Teammitglied selbst.
 \bigskip 
 
-{\Large DAD:} \cite{planningReleaseDad} \medskip
+{\Large DAD:} \cite{collabCoordInTeamDad} \medskip
 
 DAD möchte, dass folgende Fragen bezüglich Koordination in einem Scrum-Team geklärt sind um eine effektive Organisation innerhalb des Teams zu haben.
 \begin{itemize}
@@ -122,18 +139,18 @@ DAD möchte, dass folgende Fragen bezüglich Koordination in einem Scrum-Team ge
 	\item 	Wie werden wir unsere Release-/Einsatzplanung mit dem Rest des Unternehmens koordinieren?
 	\item 	Wenn wir geografisch verteilte Teammitglieder haben, wie werden wir dann mit ihnen zusammenarbeiten?
 \end{itemize}
-Innerhalb des Teams soll also klar definiert sein, mit welchen Routinen (tägliches Treffen, Video-Konferenzen, usw.) Informationen zwischen den Teammitgliedern ausgetauscht werden und welche Tools dazu verwendet werden. Auch soll die Zuständigkeit geregelt sein wer die finalen Artefakten verwaltet, das es hier keine Überschneidungen oder Unklarheiten gibt.
+Das sind Fragen, welche bei Scrum nicht implizit geklärt werden. Daher können diese Fragen gerade bei eher unerfahren Teams von Vorteil sein.
+Innerhalb des Teams soll also klar definiert sein, mit welchen Routinen (tägliches Treffen, Video-Konferenzen, usw.) Informationen zwischen den Teammitgliedern ausgetauscht und welche Tools dazu verwendet werden. Auch soll die Zuständigkeit geregelt sein wer die finalen Artefakten verwaltet, das es hier keine Überschneidungen oder Unklarheiten gibt.
 \medskip
 
 Weiter müssen gerade bei agilen Teams innerhalb eines Unternehmen auch die Koordination mit anderen Teams/Abteilungen geregelt sein.
-\medskip
-
-Was oft vernachlässigt wird, ist die Koordination mit Teammitglieder an anderen geografischen Orten. Der Informationsaustausch wird hier anspruchsvoller, da direkte verbale Kommunikation, welche die effektivste ist, nicht möglich ist.
 
 
 \subsection{Rolle und Aufgaben des Kunden}
 
-{\Large Scrum:} \cite{planningPrioScrum} \medskip
+Die Rolle und Aufgabe des Kunden wurde als Aspekt gewählt, weil es interessiert wie der Kunde im Projekt/Prozess miteinbezogen wird. \medskip
+
+{\Large Scrum:} \medskip
 
 Der Kunde soll in Scrum während des ganzen Projektes immer involviert sein. Folgende Möglichkeiten gibt es den Kunden zu involvieren:
 \begin{itemize}
@@ -144,7 +161,7 @@ Der Kunde soll in Scrum während des ganzen Projektes immer involviert sein. Fol
 Durch den konsequenten Miteinbezug des Kunden wird das Risiko vermindert, dass der Kunde nicht zufrieden ist, da er fortlaufend Einfluss nehmen kann und mit seiner Teilnahme auch frühe Schritte/Arbeiten bestätigt.
 \bigskip 
 
-{\Large DAD:} \cite{planningPrioDad} \medskip
+{\Large DAD:} \cite{collabCustomerRoleDad} \medskip
 
 DAD hat bezüglich dem Kunden eine andere auch radikalere Haltung. In DAD will man den Begriff "Kunde" nicht verwenden, sondern nur Stakeholder. Dieser werden in folgende Gruppen unterteilt:
 \begin{itemize}
@@ -160,7 +177,87 @@ Man will also bewusst ein Produkt, dass alle Stakeholder gleich berücksichtigt 
 Als wichtig wird auch herausgehoben, dass das Projekt im "wir"-Kontext betrachtet wird und nicht im "ihr". Es gibt nicht den Kunden und das Entwicklungsteam, sondern das Projekt betrifft alle gleich.
 
 
+
+\subsection{Kommunikation im Team}
+
+Die Kommunikation wurde als Aspekt gewählt, da es wichtig ist wie kommuniziert wird um eine effiziente Zusammenarbeit zu gewährleisten, gerade bei geographisch getrennten Teams.\medskip
+
+{\Large Scrum:} \medskip
+
+In Scrum gibt es keine genauere Definieren oder Analyse zur Art der Kommunikation innerhalb des Teams.
+\bigskip 
+
+{\Large DAD:} \cite{collabComDad} \medskip
+
+In DAD wird die Kommunikationsart mit ihrem Informationsgehalt gegenübergestellt. Grundsätzlich ist eine Kommunikation von Angesicht zu Angesicht am effizientesten. Jedoch müssen auch andere Faktoren und Anforderungen dabei berücksichtigt werden. Zum Beispiel kann man bei geographisch weit unterschiedlichen nur schwer und teuer regelmässig eine Austausch Angesicht zu Angesicht halten. Da ist man auf eine Anruf oder Email angewiesen. Auch müssen gewisse Kommunikationen aus rechtlichen gründen auch schriftlich festgehalten werden. \medskip
+
+Zusätzlich wird aber auch erwähnt, dass eine grössere Diversität in der Art der Kommunikation auch förderlich für einen effizienten Austausch sein kann.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.8]{DAD-communicationstechniques}
+	\caption{DAD Kommunikationstechniken}
+	\label{fig:DAD-communicationstechniques}
+\end{figure}
+
+\subsection{Know-How-Transfer im Team}
+
+Know-How-Transfer im Team wurde als Aspekt gewählt, weil hier zu DAD spannende Ideen bringt um Know-How und Kompetenzen in verschiedensten Weisen auszutauschen. \medskip
+
+{\Large Scrum:} \medskip
+
+Scrum macht direkt keine Vorschläge zum Austausch von Know-How. In den Reviews kann ein gewisser Austausch über Know-How statt finden, jedoch ist dort der Fokus primär auf die Zusammenarbeit gerichtet.
+
+\bigskip 
+
+{\Large DAD:} \cite{collabKHTransDad} \medskip
+
+DAD macht einige Vorschläge wie Teammitglieder sich gegenseitig Know-How oder Kompetenzen vermitteln können. \medskip
+
+Folgende Methoden werden vorgeschlagen:
+\begin{itemize}
+	\item Training, sich etwas beibringen lassen
+	\item Open Space, gemeinsam über Fragestellungen diskutieren
+	\item Non-Solo work, also bewusst arbeiten nicht alleine machen
+	\item Mentoring, sich von jemandem etwas erklären lassen
+	\item Hackathons, gemeinsam in z.B. einem Tag mal eine Applikation für andere Anwendung entwickeln.
+	\item Communities of Practice, Personen aus verschiedenen Abteilungen, welche ähnliche Problemstellungen im Berufsalltag haben.
+\end{itemize}
+
+Mit solchen Methoden kann spielerisch und immer wieder in einzelnen Blöcken Know-How und Kompetenzen zwischen den einzelnen Mitarbeitern ausgetauscht werden. Weiter können solche Anlässe auch einen Team-bildenden Effekt haben.
+
+
+\subsection{Organisation in grösseren Teams}
+
+Die Organisation in mittleren bis grossen Teams wurde als Aspekt gewählt, weil Scrum hier eine Limitierung von max. 7-9 Leuten hat. Es interessiert welchen Ansatz DAD bringt um agile Vorgehensmodelle wie Scrum auch in grösseren Teams anzuwenden.
+
+{\Large Scrum:} \cite{collabollabOrgLargerTeamsScrum} \medskip
+
+Scrum geht von einer maximalen grösse eines Teams von 7-9 Mitgliedern aus. Danach wird das Projekt mit all seinen Prozessen zu lange und ineffizient (z.Bsp. Daily Scrum nicht mehr in 15min möglich). \smallskip
+
+Es wird  dann eine Aufteilung des Teams empfohlen und das Projekt entsprechend zu modularisieren. Um einen Austausch zwischen diesen Teams zu haben soll übergeordnetes Scrums of Scrums gehalten werden, wo nur die einzelnen Product Owner und Scrum Master teilnehmen um ihre Teams zu vertreten.
+\bigskip 
+
+{\Large DAD:} \cite{collabollabOrgLargerTeamsDad} \medskip
+
+DAD unterscheidet zwischen kleinen (2-15 Personen )mittleren(15-35 Personen) und grossen (35+ Perosnen) Teams. \medskip
+
+Kleine Teams werden wie Beschrieben in Kapitel 2.3 geführt. Also grundsätzlich Scrum mit zusätzlichen Rollen. \medskip
+
+Mittlere Teams analog zu Scrum of Scrums mit einzelnen Sub-Teams geführt.
+
+Grosse Teams werden in DAD zusätzlich definiert. Hierzu wird zu den einzelnen Subteams ein Leadership Team eingeführt. Dieses enthält folgende zusätzlichen Rollen:
+\begin{itemize}
+	\item Program Manager: hat die Koordination über das ganze Projekt und das Leadership Team
+	\item Product Coordination: Koordiniert alle Team Leader aus den Sub-Teams
+	\item Product Ownership: Koordiniert alle Product Owner aus den Sub-Teams
+	\item Architecture Ownership: Koordiniert alle Achitecture Owner aus den Sub-Teams
+\end{itemize}
+
+Das Leadership Team soll die einzelnen Sub-Team und die Rollen-Inhaber in ihren Tätigkeiten unterstützen und die Koordination zwischen den Teams sicherstellen und unterstützen. 
+
 \section{Zuständigkeit}
+
 \subsection{Rollen}
 {\Large Scrum:} \medskip
 
@@ -275,7 +372,7 @@ DAD bietet hier Unterstützung indem zusätzliche Rollen explizit adressiert wer
 
 \section{Empfehlung}
 
-Die Gegenüberstellung von Scrum und DAD hat gezeigt, dass mit beide Modelle Vor- aber auch Nachteile entstehen. Aus unserer Sicht überwiegen für Ihre Unternehmung die Vorteile von DAD. Diese sollen im Folgenden nochmals Zusammenfassend aufgezeigt werden:
+Die Gegenüberstellung von Scrum und DAD hat gezeigt, dass mit beiden Modellen Vor- aber auch Nachteile entstehen. Aus unserer Sicht überwiegen für Ihre Unternehmung die Vorteile von DAD. Diese sollen im Folgenden nochmals Zusammenfassend aufgezeigt werden:
 
 Im Bereich der Releaseplanung bietet DAD den Vorteil, dass die Release Planung bereits frühzeitig im Projekt definiert wird. Gegenüber Scrum werden hier viel tiefergehende Fragen geklärt um das Projekt im Einklang mit der unternehmerischen Strategie zu bringen. Dabei wird früh mit den beteiligten Stakeholdern ein gemeinsames Verständnis gefunden, nach welchem das weitere Vorgehen definiert ist. Scrum konzentriert sich hier mehr aufs Projekt und klammert unternehmerische Fragen grösstenteils aus\newline
 Die Priorisierung von Scrum und DAD verhält sich sehr ähnlich. Bei beiden wird iterativ eine Priorisierung der Inkremente vorgenommen, wobei die wichtigsten Features jeweils den Vortritt erhalten. DaD geht zusätzlich nach dem Rolling-Wave-Modell vor und spezifiziert höher priorisierte Features detaillierter als als tiefer priorisierte. Wird dieser Vorgang angewendet, so geschieht im Projekt Team dadurch eine Fokussierung aufs Wesentliche indem das Wichtige genauer besprochen wird während die Details bei, zum Zeitpunkt, noch weniger wichtigen zeitsparend weggelassen werden können.
