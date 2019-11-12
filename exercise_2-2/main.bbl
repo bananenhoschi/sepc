@@ -1,4 +1,4 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 
 \bibitem{planningReleaseScrum}
 Author nicht erwähnt.
@@ -25,5 +25,38 @@ Scott Ambler.
 Scott Ambler.
 \newblock Dad lifecycle - agile (scrum based).
 \newblock \url{http://disciplinedagiledelivery.com/lifecycle/agile-lifecycle/}.
+
+\bibitem{collabCoordInTeamDad}
+Scott Ambler.
+\newblock Coordinate activities.
+\newblock \url{https://disciplinedagiledelivery.com/coordinate-activities/}.
+
+\bibitem{collabCustomerRoleDad}
+Scott Ambler.
+\newblock Stakeholder over customer.
+\newblock
+  \url{https://disciplinedagiledelivery.com/stakeholders-over-customers/}.
+
+\bibitem{collabComDad}
+Scott Ambler.
+\newblock Choose the best communication technique available.
+\newblock
+  \url{https://disciplinedagiledelivery.com/choose-the-best-communication-technique-available/}.
+
+\bibitem{collabKHTransDad}
+Scott Ambler.
+\newblock Grow team member.
+\newblock \url{https://disciplinedagiledelivery.com/grow-team-members/}.
+
+\bibitem{collabollabOrgLargerTeamsScrum}
+Vytas Butkus.
+\newblock Too big to scale – optimal scrum team size guide.
+\newblock \url{https://www.toptal.com/product-managers/agile/scrum-team-size}.
+
+\bibitem{collabollabOrgLargerTeamsDad}
+Scott Ambler.
+\newblock Large agile teams.
+\newblock
+  \url{https://disciplinedagiledelivery.com/agility-at-scale/large-agile-teams/}.
 
 \end{thebibliography}
